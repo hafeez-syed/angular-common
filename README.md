@@ -35,7 +35,7 @@ bower install angular-common
 })();
 ```
 
-Or you can toggle multiple modules with the /modules/common/common.js file.
+Or instead of writing all of that out you can create a use a single reference by editing the /modules/common/common.js file which contains all the modules.
 
 
 ```
