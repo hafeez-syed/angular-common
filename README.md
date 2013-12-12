@@ -50,6 +50,20 @@ Or instead of writing all of that out you can create a use a single reference by
 })();
 ```
 
+## Running The Demo
+
+### PHP
+
+```
+// From the root of this repo.
+php -S localhost:8000
+```
+
+### Node
+```
+// server.js coming soon.
+```
+
 ## Roadmap
 
 The long term vision for this project is to one by one elimnate all dependencies for this project and create completely angular based modules without the need for including external libraries.
