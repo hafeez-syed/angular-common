@@ -20,6 +20,7 @@ bower install angular-common
         'common.api',
         'common.confirm',
         'common.dateRange',
+        'common.drag',
         'common.mediaelement',
         'common.modal',
         'common.ngBindHtmlUnsafe',
@@ -30,6 +31,13 @@ bower install angular-common
         'common.upload',
         'common.youtube'
     ]);
+    
+    /**
+        Or you can toggle multiple modules with the /modules/common/common.js file.
+        angular.module('app', [
+            'common.master'
+        ]);
+    */
 
 })();
 ```
